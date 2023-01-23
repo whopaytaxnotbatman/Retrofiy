@@ -25,7 +25,7 @@ local RetrofiyConfig = {
 	RetroCoreGui = true, -- [B] -- Replaces the Core Gui with a 2016 Core Gui (Playerlist, topbar, etc)
 	RetroWorkspace = true, -- [R] -- Uses old materials, disables terrain decoration, only allows brick colors and returns 2016 studs
 	RetroCharacters = true, -- [B] -- Displays health bars above the heads of characters & returns old oof sound
-	RetroChat = true, -- [R] -- If default chat is enabled it will convert it to the 2016 chat
+	RetroChat = false, -- [R] -- If default chat is enabled it will convert it to the 2016 chat
 	BCOnly = false -- [O] -- Makes all premium players appear as BC players instead of it being User ID linked
 }
 
