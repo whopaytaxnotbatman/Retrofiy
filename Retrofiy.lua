@@ -22,7 +22,7 @@
 
 local RetrofiyConfig = {
 	RetroLighting = true, -- [R] -- Force disables lighting properties that weren't in 2016, uses compatibility Techology and deletes effects not seen in 2016
-	RetroCoreGui = true, -- [B] -- Replaces the Core Gui with a 2016 Core Gui (Playerlist, topbar, etc)
+	RetroCoreGui = false, -- [B] -- Replaces the Core Gui with a 2016 Core Gui (Playerlist, topbar, etc)
 	RetroWorkspace = true, -- [R] -- Uses old materials, disables terrain decoration, only allows brick colors and returns 2016 studs
 	RetroCharacters = true, -- [B] -- Displays health bars above the heads of characters & returns old oof sound
 	RetroChat = true, -- [R] -- If default chat is enabled it will convert it to the 2016 chat
